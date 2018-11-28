@@ -18,6 +18,8 @@ Simply set Limit to the number of values that you want Solr to return for the sp
  var fq = new SolrFacetFieldQuery("pepe") {Limit = 5};
 ```
 
+This is a commit in the other branch
+
 Or on the other hand your project requires all facets to be returned and since Solr's default value for `Limit` is 100 then you may need to set to a higher number or even an unlimited value which is -1.  Word of advise is that for performance considerations you set only to what you require and not unlimited.
 
 ### Querying by field
