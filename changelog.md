@@ -16,7 +16,7 @@ test
 ## 1.0.10 (2018-07-26)
 - QueryInListSerializer should not always auto quote
 - Overriding the default mapper, built-in container example doesn't work #423
-
+test2
 ## 1.0.9 (2018-05-14)
 - Added missing properties to SolrFacetFieldQuery
 
